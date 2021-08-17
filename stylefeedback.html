@@ -1,0 +1,119 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>INST728J Example CSS Website</title>
+    <head>
+        <title>Feedback</title>
+    </head>
+    <style>
+
+    .header-container header{
+        padding: 20px;
+        border-width: 3px;
+        border-color: red;
+        border-style: solid;
+    }
+
+    .form-container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(214, 207, 207);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    table, th, td {
+        background-color: #f0bebe;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding : 10px;
+        color: black;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+        width: 750px;
+        }
+
+     fieldset {
+        background-color: darkred;
+        }
+
+    .fieldset-img {
+            color: yellow
+        }
+
+    fieldset p {
+            font-weight:bold;
+            padding-left: 20px;
+        }
+
+    .footer-container {
+            clear: both;
+            background-color: rgb(214, 207, 207);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-color: red;
+            border-style: solid;
+            padding:25px;
+            text-align: center;
+        }
+
+    </style>
+
+<div class= "header-container">
+    <header>
+        <img src="umd_logo.png" alt="UMD Logo">
+    </header>
+</div>
+
+    <fieldset>
+    <div class="fieldset-img">
+        <img src="arrow.gif">FEEDBACK</img>
+    </div>
+    <div class= "form-container">
+        </br>
+        <p>Please complete the following form.</p>
+    <form name="myFirstForm" method="post" action="stylefeedbackthankyou.html">
+   <table>
+       <col width="100px">
+       <col width="220px">
+     <tr>
+        <td><strong>FEEDBACK</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CaseID:</td>
+        <td><input type="text" placeholder></td>
+    </tr>
+    <tr>
+        <td>Subject:*</td>
+        <td><input type="text" style="width: 200px" placeholder></td>
+    </tr>
+    <tr>
+        <td>Comment:*</td>
+        <td><input type="text" style="height: 150px; width: 200px" placeholder></td>
+    </tr>
+    <tr>
+        <td><label for="Important">Importance:</label></br></td>
+        <td><input type="radio" name="Important">High</td></br>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="radio" name="Important">Medium</td></br>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="radio" name="Important">Low</td></br>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Submit"></td>
+    </tr>
+   </table>
+    </div>
+    </fieldset>
+
+    <div class="footer-container">
+        <footer><div>Copyright (c) of UMD iSchool. All rights reserved.</div></footer>
+    </div>
+
+</html>
